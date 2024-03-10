@@ -75,3 +75,36 @@ This project is licensed under the MIT License. For more details, see the LICENS
 
 ## Disclaimer
 These solutions are provided for educational purposes only. While it's fine to refer to these solutions as you work through the assignments, directly copying them may not be beneficial for your learning. Try to learn as much as possibleby working through the problems on your own.
+
+## Caution
+
+Some examples in this project use `e.printStackTrace()` for error tracking. However, this practice is not recommended in a real production environment. In actual applications, it is better to manage errors using a logging framework instead of `e.printStackTrace()`. For example, using a logging framework like Apache Log4j2 can allow for more systematic and efficient error management.
+
+### Why should you not use `e.printStackTrace()`?
+
+Using `e.printStackTrace()` directs error messages straight to the standard output (usually the console), making it difficult to appropriately manage error logs in a real operational environment. This can lead to security issues, as stack traces can reveal information about your application's internal structure, potentially exposing vulnerabilities to attackers. Additionally, it makes analyzing and monitoring error logs challenging.
+
+### Alternative
+
+Using a logging framework like Apache Log4j2 allows for detailed setting of log levels and easy redirection of logs to files or other destinations. This helps to organize the error management process more effectively.
+
+Refer [to the documentation](https://logging.apache.org/log4j/2.x/) on how to add Log4j2 into your project.
+
+Example:
+
+```java
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class MyClass {
+    private static final Logger LOGGER = LogManager.getLogger(ExampleClass.class);
+
+    public void someMethod() {
+        try {
+            // code logic
+        } catch (Exception e) {
+            LOGGER.error("Ops!", e);
+        }
+    }
+}
+
