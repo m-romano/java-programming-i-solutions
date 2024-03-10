@@ -97,7 +97,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class MyClass {
-    private static final Logger LOGGER = LogManager.getLogger(ExampleClass.class);
+    private static final Logger LOGGER = LogManager.getLogger();
 
     public void someMethod() {
         try {
