@@ -11,7 +11,7 @@ The purpose of this repository is to document the code examples and solutions I'
 The files in the repository are organized according to the parts of the course and the exercises within those parts. Each directory contains code files with solutions to the exercises for that part.
 
 ```plaintext
-java-programming-i/
+java-programming-i-solutions/
 ├── part01
 │   ├── part01-Part01_01.Sandbox
 │   │   └── src
