@@ -82,15 +82,15 @@ Some examples in this project use `e.printStackTrace()` for error tracking. Howe
 
 ### Why should you not use `e.printStackTrace()`?
 
-e.printStackTrace() is generally discouraged because it just prints out the stack trace to standard error. Because of this you can't really control where this output goes.
+`e.printStackTrace()` is generally discouraged because it just prints out the stack trace to standard error. Because of this you can't really control where this output goes.
 
 The better thing to do is to use a logging framework (logback, slf4j, java.util.logging, log4j, etc) because then you can control where the errors are logged to and what the log retention policy is.
 
 And generally you'll want to catch the exception and if it's unexpected behavior, log it and either throw a new exception (probably specific to your application) or do whatever you have to do to continue operating gracefully.
 
-Refer [to this Stackoverflow answer.](https://stackoverflow.com/a/7470693)
+Refer [to this Stackoverflow answer](https://stackoverflow.com/a/7470693).
 
-### Alternative
+### Solution
 
 Using a logging framework like Apache Log4j2 allows for detailed setting of log levels and easy redirection of logs to files or other destinations. This helps to organize the error management process more effectively.
 
