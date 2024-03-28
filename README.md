@@ -76,6 +76,8 @@ This project is licensed under the MIT License. For more details, see the LICENS
 ## Disclaimer
 These solutions are provided for educational purposes only. While it's fine to refer to these solutions as you work through the assignments, directly copying them may not be beneficial for your learning. Try to learn as much as possibleby working through the problems on your own.
 
+Some solutions are not the prettiest, but they pass all the tests. I don't have time to refactor the code.
+
 ## Warning
 
 Some examples in this project use `e.printStackTrace()` for error tracking. However, this practice is not recommended in a real production environment. In actual applications, it is better to manage errors using a logging framework instead of `e.printStackTrace()`. For example, using a logging framework like Apache Log4j2 can allow for more systematic and efficient error management.
