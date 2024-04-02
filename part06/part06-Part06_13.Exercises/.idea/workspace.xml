@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef723b73-519f-4984-8619-08c015cfc0c3" name="Changes" comment="" />
+    <list default="true" id="ef723b73-519f-4984-8619-08c015cfc0c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ExerciseManagementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExerciseManagementTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -32,15 +40,21 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/zhenta/Downloads/java-programming-i-solutions/part06/part06-Part06_13.Exercises",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -53,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserInterfaceTest">
+  <component name="RunManager" selected="JUnit.ExerciseManagementTest">
     <configuration name="All in Part06_13.Exercises" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Part06_13.Exercises" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserInterfaceTest" />
         <item itemvalue="JUnit.ExerciseManagementTest" />
+        <item itemvalue="JUnit.UserInterfaceTest" />
         <item itemvalue="JUnit.ExerciseManagementTest.addingExerciseGrowsListByOne" />
         <item itemvalue="JUnit.ExerciseManagementTest.addedExerciseIsInList" />
         <item itemvalue="JUnit.All in Part06_13.Exercises" />
@@ -122,6 +136,7 @@
       <workItem from="1712062474655" duration="168000" />
       <workItem from="1712062656138" duration="36000" />
       <workItem from="1712062704047" duration="14462000" />
+      <workItem from="1712091266484" duration="834000" />
     </task>
     <servers />
   </component>
